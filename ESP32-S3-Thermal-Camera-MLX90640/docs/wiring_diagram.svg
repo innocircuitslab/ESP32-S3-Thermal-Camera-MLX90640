@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#0b111a"/>
+  <text x="700" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#f5f7fa">ESP32-S3 Thermal Camera — Wiring</text>
+  <text x="700" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#8f9baa">MLX90640 over I²C · ST7789 over SPI</text>
+
+  <rect x="500" y="185" rx="28" ry="28" width="400" height="470" fill="#121b27" stroke="#65d6ff" stroke-width="2"/>
+  <text x="700" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f5f7fa">ESP32-S3 Super Mini</text>
+
+  <rect x="80" y="230" rx="24" ry="24" width="310" height="360" fill="#121b27" stroke="#8f9baa" stroke-width="2"/>
+  <text x="235" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#f5f7fa">MLX90640</text>
+  <text x="235" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#8f9baa">32 × 24 thermal array</text>
+
+  <rect x="1010" y="210" rx="24" ry="24" width="310" height="400" fill="#121b27" stroke="#8f9baa" stroke-width="2"/>
+  <text x="1165" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#f5f7fa">ST7789 TFT</text>
+  <text x="1165" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#8f9baa">240 × 320 SPI display</text>
+
+  <!-- left labels -->
+  <text x="130" y="385" font-family="Arial" font-size="22" fill="#f5f7fa">SDA</text>
+  <text x="130" y="435" font-family="Arial" font-size="22" fill="#f5f7fa">SCL</text>
+  <text x="130" y="485" font-family="Arial" font-size="22" fill="#f5f7fa">VCC</text>
+  <text x="130" y="535" font-family="Arial" font-size="22" fill="#f5f7fa">GND</text>
+
+  <text x="575" y="385" font-family="Arial" font-size="22" fill="#65d6ff">GPIO 8</text>
+  <text x="575" y="435" font-family="Arial" font-size="22" fill="#65d6ff">GPIO 9</text>
+  <text x="575" y="485" font-family="Arial" font-size="22" fill="#65d6ff">3.3 V</text>
+  <text x="575" y="535" font-family="Arial" font-size="22" fill="#65d6ff">GND</text>
+
+  <line x1="390" y1="378" x2="560" y2="378" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="390" y1="428" x2="560" y2="428" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="390" y1="478" x2="560" y2="478" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="390" y1="528" x2="560" y2="528" stroke="#65d6ff" stroke-width="4"/>
+
+  <text x="610" y="590" font-family="Arial" font-size="17" fill="#ff8552">~2 kΩ pull-ups from SDA/SCL to 3.3 V</text>
+
+  <!-- right labels -->
+  <text x="820" y="355" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">GPIO 12</text>
+  <text x="820" y="400" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">GPIO 11</text>
+  <text x="820" y="445" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">GPIO 10</text>
+  <text x="820" y="490" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">GPIO 5</text>
+  <text x="820" y="535" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">GPIO 6</text>
+  <text x="820" y="580" font-family="Arial" font-size="22" text-anchor="end" fill="#65d6ff">3.3 V / GND</text>
+
+  <line x1="840" y1="348" x2="1010" y2="348" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="840" y1="393" x2="1010" y2="393" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="840" y1="438" x2="1010" y2="438" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="840" y1="483" x2="1010" y2="483" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="840" y1="528" x2="1010" y2="528" stroke="#65d6ff" stroke-width="4"/>
+  <line x1="840" y1="573" x2="1010" y2="573" stroke="#65d6ff" stroke-width="4"/>
+
+  <text x="1080" y="355" font-family="Arial" font-size="22" fill="#f5f7fa">SCK</text>
+  <text x="1080" y="400" font-family="Arial" font-size="22" fill="#f5f7fa">MOSI</text>
+  <text x="1080" y="445" font-family="Arial" font-size="22" fill="#f5f7fa">CS</text>
+  <text x="1080" y="490" font-family="Arial" font-size="22" fill="#f5f7fa">DC</text>
+  <text x="1080" y="535" font-family="Arial" font-size="22" fill="#f5f7fa">RST</text>
+  <text x="1080" y="580" font-family="Arial" font-size="22" fill="#f5f7fa">VCC/GND</text>
+
+  <text x="700" y="735" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#8f9baa">MLX90640 default I²C address: 0x33 · GPIO numbers are logical ESP32-S3 GPIOs</text>
+</svg>

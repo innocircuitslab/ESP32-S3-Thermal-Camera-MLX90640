@@ -1,0 +1,90 @@
+{
+  "parts": {
+    "01_front_body_V4_REAL_PRINT_FIX": {
+      "watertight": true,
+      "size_mm": [
+        90.0,
+        62.0,
+        32.0
+      ],
+      "faces": 7196,
+      "volume_mm3": 33559.09
+    },
+    "02_rear_cover_V4_REAL_PRINT_FIX": {
+      "watertight": true,
+      "size_mm": [
+        90.0,
+        62.0,
+        5.0
+      ],
+      "faces": 5564,
+      "volume_mm3": 15731.99
+    },
+    "03_display_window_fit_test": {
+      "watertight": true,
+      "size_mm": [
+        68.0,
+        45.0,
+        2.0
+      ],
+      "faces": 1056,
+      "volume_mm3": 2140.81
+    },
+    "04_lens_hole_fit_test": {
+      "watertight": true,
+      "size_mm": [
+        28.0,
+        28.0,
+        2.0
+      ],
+      "faces": 1032,
+      "volume_mm3": 1295.16
+    },
+    "05_corner_body_fit_test": {
+      "watertight": true,
+      "size_mm": [
+        28.0,
+        28.0,
+        32.0
+      ],
+      "faces": 1830,
+      "volume_mm3": 6114.77
+    },
+    "06_corner_cover_fit_test": {
+      "watertight": true,
+      "size_mm": [
+        28.0,
+        28.0,
+        4.8
+      ],
+      "faces": 1224,
+      "volume_mm3": 2192.99
+    }
+  },
+  "mating": {
+    "body_rear_rim_z_mm": 32.0,
+    "usable_internal_depth_to_lip_mm": 27.4,
+    "display_window_mm": [
+      55.0,
+      36.0
+    ],
+    "usb_slot_mm": [
+      18.0,
+      9.0
+    ],
+    "usb_slot_side_center_y_mm": 0.0,
+    "usb_slot_center_z_mm": 24.0,
+    "boss_start_z_mm": 2.6,
+    "interior_floor_top_z_mm": 2.6,
+    "boss_base_od_mm": 8.5,
+    "cover_lip_penetration_mm": 2.0,
+    "boss_top_z_mm": 28.5,
+    "boss_recess_from_rim_mm": 3.5,
+    "nominal_vertical_clearance_boss_to_lip_mm": 1.5,
+    "lip_relief_diameter_mm": 10.5,
+    "rear_lip_xy_clearance_per_side_mm": 0.6,
+    "display_clip_clearance_per_side_mm": 1.0,
+    "lens_radial_clearance_mm_assuming_10mm_lens": 1.25,
+    "assembled_solid_intersection_volume_mm3": 0.0
+  }
+}
